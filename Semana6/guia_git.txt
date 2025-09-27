@@ -1,0 +1,46 @@
+# Guía de Git y GitHub
+
+## Introducción
+
+Esta guía resume los comandos y buenas prácticas de Git y GitHub utilizados durante las semanas 1 a 6.
+
+## Comandos básicos
+
+1. **Inicializar repositorio**
+```bash
+git init
+Clonar repositorio
+
+git clone <url_del_repositorio>
+Ver estado de archivos
+
+git status
+Agregar archivos al área de preparación
+
+git add <archivo_o_carpeta>
+Hacer commit
+
+git commit -m "Mensaje descriptivo"
+Subir cambios al repositorio remoto
+
+git push origin main
+Ramas y Pull Requests
+Crear rama
+
+git checkout -b nombre_rama
+Fusionar rama
+
+git checkout main
+git merge nombre_rama
+Revertir cambios
+
+git revert <hash_commit>
+Buenas prácticas
+Hacer commits frecuentes y descriptivos.
+
+Mantener la estructura de carpetas organizada por semana.
+
+Documentar los ejercicios con README.md dentro de cada carpeta.
+
+Subir los cambios al repositorio remoto regularmente.
+
