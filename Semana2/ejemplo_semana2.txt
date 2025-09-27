@@ -1,1 +1,17 @@
 Este es un archivo de práctica de la Semana 2
+Semana 2: Trabajando con ramas y commits
+
+Objetivo:
+Practicar la creación de ramas y cómo unir cambios a la rama principal.
+
+Actividades realizadas:
+- Creación de una rama llamada rama_semana2.
+- Modificación de archivos de prueba.
+- Merge de la rama con main.
+
+Comandos de Git utilizados:
+git checkout -b rama_semana2
+git add .
+git commit -m "Agregar cambios de la Semana 2"
+git checkout main
+git merge rama_semana2
