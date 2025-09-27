@@ -1,0 +1,85 @@
+Ejercicios Integrados - Registro en Java
+----------------------------------------
+
+1. Programa en Java para pedir nombre y asistencia:
+
+import java.util.Scanner;
+
+public class RegistroAsistencia {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingresa el nombre del estudiante: ");
+        String nombre = sc.nextLine();
+
+        System.out.print("Asistencia del día (P = Presente, A = Ausente): ");
+        String asistencia = sc.nextLine();
+
+        System.out.println("Registro: " + nombre + " -> " + asistencia);
+        sc.close();
+    }
+}
+
+2. Repetir el registro para 5 estudiantes y calcular porcentaje de asistencia.
+
+import java.util.Scanner;
+
+public class RegistroAsistencia {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String[] estudiantes = {"Juan Pérez", "María López", "Carlos Ramírez", "Ana Torres", "Luis García"};
+        int presentes = 0;
+
+        for (String estudiante : estudiantes) {
+            System.out.print("Asistencia de " + estudiante + " (P = Presente, A = Ausente): ");
+            String asistencia = sc.nextLine().toUpperCase();
+            if (asistencia.equals("P")) {
+                presentes++;
+            }
+        }
+
+        double porcentaje = (presentes * 100.0) / estudiantes.length;
+        System.out.println("Porcentaje de asistencia del día: " + porcentaje + "%");
+
+        sc.close();
+    }
+}
+
+3. Detectar estudiantes con asistencia menor al 85.
+
+import java.util.Scanner;
+
+public class RegistroAsistencia {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String[] estudiantes = {"Juan Pérez", "María López", "Carlos Ramírez", "Ana Torres", "Luis García"};
+        int[] asistencias = new int[estudiantes.length];
+
+       
+        for (int i = 0; i < estudiantes.length; i++) {
+            System.out.print("Asistencia de " + estudiantes[i] + " (P = Presente, A = Ausente): ");
+            String asistencia = sc.nextLine().toUpperCase();
+            asistencias[i] = asistencia.equals("P") ? 1 : 0;
+        }
+
+      
+        System.out.println("\nPorcentaje de asistencia del día:");
+        for (int i = 0; i < estudiantes.length; i++) {
+            double porcentaje = asistencias[i] * 100.0; // solo 0 o 100 en este ejemplo diario
+            System.out.println(estudiantes[i] + ": " + porcentaje + "%");
+        }
+
+   
+        System.out.println("\nEstudiantes con asistencia menor al 85%:");
+        for (int i = 0; i < estudiantes.length; i++) {
+            double porcentaje = asistencias[i] * 100.0;
+            if (porcentaje < 85) {
+                System.out.println(estudiantes[i]);
+            }
+        }
+
+        sc.close();
+    }
+}
