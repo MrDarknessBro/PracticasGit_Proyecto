@@ -1,0 +1,28 @@
+Ejercicios Integrados - Control de Asistencia
+---------------------------------------------
+
+1. Registrar asistencia de 5 estudiantes:
+   Estudiantes:
+   - Juan Pérez
+   - María López
+   - Carlos Ramírez
+   - Ana Torres
+   - Luis García
+
+   Asistencia del día (P = Presente, A = Ausente):
+   Juan Pérez: P
+   María López: P
+   Carlos Ramírez: A
+   Ana Torres: P
+   Luis García: A
+
+2. Generar porcentaje de asistencia:
+   - Juan Pérez: 100%
+   - María López: 100%
+   - Carlos Ramírez: 80%
+   - Ana Torres: 100%
+   - Luis García: 80%
+
+3. Detectar estudiantes con asistencia menor al 85%:
+   - Carlos Ramírez
+   - Luis García
