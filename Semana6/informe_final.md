@@ -1,16 +1,16 @@
-# Semana 6: Entregable final
+# Informe de Proyecto Final: Deficiencia en el control de asistencia de estudiantes
 
-En esta semana se realizó:
+## 1. Introducción
 
-1. Integración de todos los ejercicios de las semanas 1 a 5.
-2. Guía de Git y GitHub (`guia_git.md`).
-3. Informe final sobre "Deficiencia en el control de asistencia de estudiantes" (`informe_final.md`).
-4. Subida de todos los archivos al repositorio remoto.
+El proyecto aborda la deficiencia en el control de asistencia de los estudiantes, un problema común en muchas instituciones educativas que afecta la gestión académica y el seguimiento del desempeño estudiantil.
 
-## Archivos incluidos
+## 2. Análisis del problema
 
-- `guia_git.md`
-- `informe_final.md`
-- `ejercicios_integ_1.txt`
-- `ejercicios_integ_2.txt`
-- README.md
+Se detectaron las siguientes causas principales de la deficiencia en el control de asistencia:
+
+- Falta de un sistema digital confiable.
+- Registro manual de asistencia con errores frecuentes.
+- Dificultad para consolidar información de múltiples cursos o secciones.
+- Falta de seguimiento y supervisión constante por parte de docentes y administración.
+
+### Diagrama Ishikawa (causa-efecto)
