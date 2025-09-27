@@ -1,1 +1,7 @@
 Este es un archivo de práctica de la Semana 5
+Semana 5: Proyectos pequeños y revisión final
+
+Actividades realizadas:
+- Se crearon dos ejercicios de Java como práctica de la Semana 5.
+- Se organizó la carpeta Semana5 para preparación de la integración final en Semana 6.
+- Se revisaron los ejercicios de semanas anteriores.
