@@ -1,1 +1,19 @@
 Este es un archivo de práctica de la Semana 4
+Semana 4: Colaboración y Pull Requests
+
+Objetivo:
+Practicar la colaboración en GitHub mediante ramas y pull requests.
+
+Actividades realizadas:
+- Creación de una rama llamada rama_semana4.
+- Modificación de archivos de práctica en la rama.
+- Creación de un pull request en GitHub para unir los cambios a la rama main.
+- Revisión y merge del pull request.
+- Resolución de posibles conflictos durante el merge.
+
+Comandos de Git utilizados:
+git checkout -b rama_semana4
+git add .
+git commit -m "Agregar cambios de la Semana 4"
+git push origin rama_semana4
+# Pull request hecho directamente en GitHub
