@@ -14,7 +14,7 @@ Se detectaron las siguientes causas principales de la deficiencia en el control 
 - Falta de seguimiento y supervisión constante por parte de docentes y administración.
 
 ### Diagrama Ishikawa (causa-efecto)
-<img width="1536" height="1024" alt="Diagrama de Ishikawa sobre asistencia escolar" src="https://github.com/user-attachments/assets/18fa636a-7537-4b09-9d2d-62086d855a93" />
+<img width="1024" height="768" alt="Beige Simple Modern Fishbone Diagram Graph" src="https://github.com/user-attachments/assets/ebf17546-932e-4a0b-9b4a-cdfb3419a995" />
 ## 3. Antecedentes
 
 - La asistencia es un indicador clave del rendimiento académico.  
