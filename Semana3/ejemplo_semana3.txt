@@ -1,1 +1,20 @@
 Este es un archivo de práctica de la Semana 3
+Semana 3: Resolución de conflictos y Git avanzado
+
+Objetivo:
+Practicar la resolución de conflictos y el uso de comandos avanzados en Git.
+
+Actividades realizadas:
+- Se modificaron archivos de prueba en la rama principal y en otra rama para generar un conflicto.
+- Se resolvieron los conflictos manualmente.
+- Se aplicaron comandos de Git para revertir y resetear cambios.
+
+Comandos de Git utilizados:
+git checkout -b rama_conflicto
+git add .
+git commit -m "Cambios que causan conflicto"
+git checkout main
+git merge rama_conflicto
+git status
+git revert <hash_commit>
+git reset --hard <hash_commit>
