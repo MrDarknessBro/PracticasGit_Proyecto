@@ -1,0 +1,8 @@
+Semana 5: Ejemplo de ejercicio en Java
+
+public class Ejercicio1 {
+    public static void main(String[] args) {
+        System.out.println("Hola, esta es la Semana 5 - Ejercicio 1 de Java");
+        System.out.println("Este programa demuestra un simple mensaje en consola.");
+    }
+}
