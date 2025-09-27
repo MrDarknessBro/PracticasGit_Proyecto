@@ -1,1 +1,15 @@
 Este es un archivo de práctica de la Semana 1
+Semana 1: Introducción a Git y GitHub
+
+- Instalación de Git en la computadora.
+- Creación del repositorio en GitHub: PracticasGit_Proyecto.
+- Clonación del repositorio a la computadora local.
+- Creación de la carpeta Semana1 y archivo de práctica.
+- Primer commit y push al repositorio remoto.
+
+Comandos de Git utilizados:
+
+git clone https://github.com/MrDarknessBro/PracticasGit_Proyecto.git
+git add .
+git commit -m "Agregar archivo de ejemplo para la Semana 1"
+git push origin main
